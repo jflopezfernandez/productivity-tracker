@@ -13,10 +13,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <stdbool.h>
+#include <ctype.h>
 
 #ifndef PRODUCTIVITY_TRACKER_STRING_H
 #include "stdlib/string.h"
+#endif
+
+#ifndef MASTERY_TIME_H
+#include "stdlib/time.h"
 #endif
 
 #endif //PRODUCTIVITY_TRACKER_STDLIB_H
