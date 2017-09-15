@@ -13,6 +13,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 #include <stdbool.h>
 #include <ctype.h>
 
@@ -22,6 +23,14 @@
 
 #ifndef MASTERY_TIME_H
 #include "stdlib/time.h"
+#endif
+
+#ifndef MASTERY_STDINT_H
+#include "stdlib/stdint.h"
+#endif
+
+#ifndef MASTERY_ERROR_H
+#include "error.h"
 #endif
 
 #endif //PRODUCTIVITY_TRACKER_STDLIB_H
